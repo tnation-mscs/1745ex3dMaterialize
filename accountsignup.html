@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+      <title>Contractor Quest</title>  
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
+       
+       <script src="js/materialize.js"></script>
+       <script src="js/materialize.min.js"></script>
+       <link href="css/materialize.css" rel="stylesheet" />
+       <link href="css/materialize.min.css" rel="stylesheet" />
+
+      <link rel = "stylesheet"  
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">  
+      <link rel = "stylesheet"  
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">  
+      <script type = "text/javascript"  
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>             
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">  
+      </script>               
+</head>
+<body>
+
+
+     <nav class="blue-grey lighten-1" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo center">Contractor Quest</a>
+                <ul class="left hide-on-med-and-down">
+                    <li><a href="index.html">Contracts</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#" >Organizations</a></li>
+                    <!-- Help Center Dropdown Trigger -->
+                    <li><a class=".dropdown-trigger" href="#!" data-target="dropdown1">Help Center<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><input placeholder="Find something" id="search" type="text" class="validate"></li>
+                    <li><a href="#"><i class="material-icons">search</i></a></li>
+                    <li><a href="signin.html" class="waves-effect waves-light black-text blue-grey lighten-4 btn-small"><i class="material-icons right">person</i>Login</a></li>
+                    <li><a href="#">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    <nav>
+        <div class="nav-wrapper, grey darken-1">
+            <div class="col m1">
+                <div class="col s1"></div>
+                <a href="#!" class="breadcrumb">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <h4>Register</h4>	
+    <div id="register-page" class="row">
+	    <div class="col s12 z-depth-6 card-panel">
+		    <form class="register-form">   
+                <div class="col s8">
+			        <div class="row margin">
+				        <div class="input-field col s12">
+					        <i class="mdi-social-person-outline prefix"></i>
+					        <input id="user_name" type="text" class="validate">
+					        <label for="user_name" class="center-align">Username</label>
+				        </div>
+			        </div>
+                    <div class="row margin">
+				        <div class="input-field col s6">
+					        <i class="mdi-social-person prefix"></i>
+					        <input id="FName" type="text" class="validate">
+					        <label for="FName" class="center-align">First Name</label>
+				        </div>
+                        <div class="input-field col s6">
+					        <input id="LName" type="text" class="validate">
+					        <label for="LName" class="center-align">Last Name</label>
+				        </div>
+			        </div>
+			        <div class="row margin">
+				        <div class="input-field col s12">
+					        <i class="mdi-communication-email prefix"></i>
+					        <input id="user_email" type="email" class="validate">
+					        <label for="user_email" class="center-align">Email</label>
+				        </div>
+			        </div>
+			        <div class="row margin">
+				        <div class="input-field col s12">
+					        <i class="mdi-action-lock-outline prefix"></i>
+					        <input id="user_passw" type="password" class="validate">
+					        <label for="user_passw">Password</label>
+				        </div>
+			        </div>
+			        <div class="row margin">
+				        <div class="input-field col s12">
+					        <i class="mdi-action-lock-outline prefix"></i>
+					        <input id="confirm_pass" type="password">
+					        <label for="confirm_pass">Re-type password</label>
+				        </div>
+			        </div>
+                </div>
+                <div class="col s4">
+                      <div class="row">
+                        <div class="col s12">
+                          <div class="card blue-grey darken-1">
+                            <div class="card-content white-text">
+                              <span class="card-title">Avatar</span>
+                              <p>Set any picture that follows our guidlines and that is under our 8px by 8px requirements as your avatar. </p>
+                            </div>
+                            <div class="card-action">
+                              <a href="#">Upload</a>
+                              <a href="#">Choose from our library of memes</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+			    <div class="row">
+				    <div class="input-field col s12">
+					    <a href="register.html" class="btn waves-effect waves-light blue-grey col s12">Register Now</a>
+				    </div>
+				    <div class="input-field col s12">
+					    <p class="margin center medium-small sign-up">Already have an account? <a href="signin.html">Login</a></p>
+				    </div>
+			    </div>
+		    </form>
+	    </div>
+    </div>
+
+    <footer class="page-footer grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Contract Rules</h5>
+                        <p class="grey-text text-lighten-4">Terms Of Service</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Contact Us</h5>
+                        <ul>
+                            
+                            <li><a class="grey-text text-lighten-3" href="#!">Office Hours: 24/7</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Office: 555 North 5 St</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Phone: (555) 555-5555</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Email: notmyemail@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2019 Copyright
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>

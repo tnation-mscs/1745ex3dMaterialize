@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>  
+<html>  
+   <head>  
+      <title>Contractor Quest</title>  
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">      
+       
+       <script src="js/materialize.js"></script>
+       <script src="js/materialize.min.js"></script>
+       <link href="css/materialize.css" rel="stylesheet" />
+       <link href="css/materialize.min.css" rel="stylesheet" />
+
+      <link rel = "stylesheet"  
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">  
+      <link rel = "stylesheet"  
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">  
+      <script type = "text/javascript"  
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>             
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">  
+      </script>               
+   </head>  
+     
+   <body>   
+
+        <nav class="blue-grey lighten-1" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo center">Contractor Quest</a>
+                <ul class="left hide-on-med-and-down">
+                    <li class="active"><a href="#">Contracts</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#" >Organizations</a></li>
+                    <!-- Help Center Dropdown Trigger -->
+                    <li><a class=".dropdown-trigger" href="#!" data-target="dropdown1">Help Center<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><input placeholder="Find something" id="search" type="text" class="validate"></li>
+                    <li><a href="#"><i class="material-icons">search</i></a></li>
+                    <li><a href="signin.html" class="waves-effect waves-light black-text blue-grey lighten-4 btn-small"><i class="material-icons right">person</i>Login</a></li>
+                    <li><a href="accountsignup.html">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    <nav>
+        <div class="nav-wrapper, grey darken-1">
+            <div class="col m1">
+                <div class="col s1"></div>
+                <a href="#!" class="breadcrumb">Contracts</a>
+                <a href="#!" class="breadcrumb">Pets</a>
+            </div>
+        </div>
+    </nav>
+
+       
+      <hr/>   
+        
+      <div class = "row">  
+         <div class = "col s12 m4 l2 white">  
+             <div>
+                 <h4>Filter</h4>
+
+                    <label class="col s12" for="search_tags">Search Tags</label>
+                    <input placeholder="Add some tags" id="search_tags" type="text" class="validate">
+                    <div class="chip">
+                        Dog Walking
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <div class="chip">
+                        Dog Sitting
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <label class="col s12" for="zip_code">Zip Code</label>
+                    <input placeholder="55987" id="zip_code" type="text" class="validate">
+                    <form action="#">
+                        <p class="range-field">Miles Away
+                            <input type="range" id="test5" min="0" max="100" />
+                        </p>
+                    </form>
+             </div>
+
+              <hr/>   
+
+            <div class="widget-wrapper">
+                <h4>Categories</h4>
+                <div class="list-group">
+                    <ul class = "collection">  
+                        <li class = "collection-item"><a href="#" class="list-group-item active">Building</a></li>
+                        <li class = "collection-item"><a href="#" class="list-group-item">Roofing</a></li>
+                        <li class = "collection-item"><a href="#" class="list-group-item">Misc</a></li>
+                        <li class = "collection-item"><a href="#" class="list-group-item">Yard Work</a></li>
+                        <li class = "collection-item"><a href="#" class="list-group-item">Transport</a>
+                        <li class = "collection-item"><a href="#" class="list-group-item">Dog Care</a>
+                        <li class = "collection-item"><a href="#" class="list-group-item">Cleaning</a>
+                    </ul>
+                </div>
+            </div>
+         </div>  
+          
+        <div class = "col s12 m7 l10 white">  
+            <h4>Recently Added</h4>
+          <table>
+                <thead>
+                    <tr>
+                        <th class="col s3">Job Category</th>
+                        <th class="col s7">Description</th>
+                        <th class="col s2">Payment</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="grey">
+                        <td class="col s3">Lawn Care</td>
+                        <td class="col s7">Mowing lawn every 2 weeks</td>
+                        <td class="col s2">$25.00 Every session</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="white">
+                        <td class="col s3">Lawn Care</td>
+                        <td class="col s7">Needing two stumps removed from backyard</td>
+                        <td class="col s2">Payment negotiable</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="grey">
+                        <td class="col s3">Pets</td>
+                        <td class="col s7">Looking for someone that loves animals to walk my dogs while I'm at work</td>
+                        <td class="col s2">List your price</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="white">
+                        <td class="col s3">Transport</td>
+                        <td class="col s7">Need help hauling wood from local wood store</td>
+                        <td class="col s2">$40.00</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="grey">
+                        <td class="col s3">Cleaning</td>
+                        <td class="col s7">Cleaning of apartment, need finished before June 1</td>
+                        <td class="col s2">List your price</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="white">
+                        <td class="col s3">Building</td>
+                        <td class="col s7">Need help installing wood stove in garage</td>
+                        <td class="col s2">$30.00</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                </tbody>
+              </table>
+
+            <br /><br />
+
+            <h4>Search Results: Dog Walking, Dog Sitting</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="col s2">Job Category</th>
+                        <th class="col s1">Tags</th>
+                        <th class="col s7">Description</th>
+                        <th class="col s2">Payment</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="grey">
+                        <td class="col s2">Pets</td>
+                        <td class="col s1">Dog Walking</td>
+                        <td class="col s7">German Shepard, a bit chonky needs a walk</td>
+                        <td class="col s2">$25.00 Every session</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="white">
+                        <td class="col s2">Pets</td>
+                        <td class="col s1">Dog Walking</td>
+                        <td class="col s7">Meow</td>
+                        <td class="col s2">You can pet me</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="grey">
+                        <td class="col s2">Pets</td>
+                        <td class="col s1">Dog Walking</td>
+                        <td class="col s7">I need a dogwalker to help me with my rambunctious dog...</td>
+                        <td class="col s2">List your price</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="white">
+                        <td class="col s2">Pets</td>
+                        <td class="col s1">Dog Walking</td>
+                        <td class="col s7">Mastiff, He will walk you and needs to have water frequently</td>
+                        <td class="col s2">$20.00</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="grey">
+                        <td class="col s2">Pets</td>
+                        <td class="col s1">Dog Sitting</td>
+                        <td class="col s7">Small dog, Sleeps most the day but needs bathroom breaks</td>
+                        <td class="col s2">$12.00</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                    <tr class="white">
+                        <td class="col s2">Pets</td>
+                        <td class="col s1">Dog Sitting</td>
+                        <td class="col s7">Just take my dog ill pay you</td>
+                        <td class="col s2">Catnip</td>
+                        <td class="col s12"><br /></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+                    <div>Loading More Results</div>
+            <div class="preloader-wrapper big active">
+                <div class="spinner-layer spinner-blue-only right">
+                    <div class="circle-clipper left">
+                    <div class="circle"></div>
+                    </div><div class="gap-patch">
+                    <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+      </div>  
+
+        <footer class="page-footer grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Contract Rules</h5>
+                        <p class="grey-text text-lighten-4">Terms Of Service</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Contact Us</h5>
+                        <ul>
+                            
+                            <li><a class="grey-text text-lighten-3" href="#!">Office Hours: 24/7</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Office: 555 North 5 St</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Phone: (555) 555-5555</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Email: notmyemail@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2019 Copyright
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+   </body>  
+</html>  
